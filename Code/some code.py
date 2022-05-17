@@ -38,17 +38,14 @@ from koreanbots.integrations.discord import DiscordpyKoreanbots
 
 
 
-client_id = "mFt9JE_EBjb5dvMwlB5F"
-client_secret = "ozWF8mnOBa"
-
-cred = credentials.Certificate('user-gura-firebase-adminsdk-71eku-125d067d26.json')
+cred = credentials.Certificate('firebase.json')
 firebase_admin.initialize_app(cred,{
-    'databaseURL' : 'https://user-gura-default-rtdb.firebaseio.com/'
+    'databaseURL' : 'firebaseurl'
 })
 
 bot = commands.Bot(command_prefix=['?'], intents=discord.Intents.all())
 slash = SlashCommand(bot,   sync_commands=True)
-kb = DiscordpyKoreanbots(bot, 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk2ODE0NzY2NTY0MjcyOTU3MyIsImlhdCI6MTY1MTQxMjE0Nn0.TyVOMkMLqyvyI-MjDw5CmiOP-Mn_DL6YE-puumzZp266uJP5cTPSrqzlFfoFehkHie0V7bWSsZVcfP4jtJXChrvcQ2yrtC-6SI0y12B9YAFZCbOswugAZsLmRmIiARguMkhopZNUEcBcmm8e1aoOx2csukK0YWWyJE7dnLgFwes', run_task=True)
+kb = DiscordpyKoreanbots(bot, 'token', run_task=True)
 
 
 
