@@ -3,6 +3,7 @@
 
 [<img src="https://img.shields.io/badge/python-4374D9?style=for-the-badge&logo=python&logoColor=white">](https://discord.gg/B98msXGRB7)
 
+
 # Release_note
 # [2022-04-26]
 1. `/docs`명령어가 추가되었습니다.<br/>
