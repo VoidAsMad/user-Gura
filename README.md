@@ -67,5 +67,8 @@
 
 # [2022-06-12]
 ## 한국 디스코드 리스트 하트 알고리즘 추가 안내
-`/lvup`명령어는 이제 하트(투표)를 한 유저만 사용가능합니다.(12시간 쿨타임)<br/>
-[<img src="https://img.shields.io/badge/koreanbots-4374D9?style=for-the-badge&logoColor=white">](https://koreanbots.dev/bots/968147665642729573)
+1. `/lvup`명령어는 이제 하트(투표)를 한 유저만 사용가능합니다.(12시간 쿨타임)<br/>
+[하트 누르기](https://koreanbots.dev/bots/968147665642729573)
+
+## Docs 업데이트
+1. `/docs`명령어중 `Game`카테고리 추가
