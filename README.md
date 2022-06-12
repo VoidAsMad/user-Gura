@@ -64,3 +64,8 @@
 # [2022-06-02]
 ## Gura일러스트
 `/gura`를 통해 구라의 일러스트를 출력합니다.
+
+# [2022-06-12]
+## 한국 디스코드 리스트 하트 알고리즘 추가 안내
+`lvup`명령어는 이제 하트(투표)를 한 유저만 사용가능합니다.(12시간 쿨타임)<br/>
+[<img src="https://img.shields.io/badge/koreanbots-4374D9?style=for-the-badge&logoColor=white">](https://koreanbots.dev/bots/968147665642729573)
